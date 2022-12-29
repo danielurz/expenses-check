@@ -6,6 +6,7 @@ function ListadoGastos({gastos,setGastoEditar,setGastos,gastosFiltrados,filtro})
   const handleEliminar = gastoId => {
       const gastoFiltrado = gastos.filter(gasto => gasto.id !== gastoId)
       setGastos(gastoFiltrado)
+      console.log(`Eliminando ${gastoId}`);
   }
 
 return (

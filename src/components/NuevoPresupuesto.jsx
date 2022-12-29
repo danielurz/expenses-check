@@ -24,7 +24,7 @@ function NuevoPresupuesto({setPresupuesto,presupuesto,setIsValid}) {
     <div className='contenedor-presupuesto contenedor sombra'>
         <form onSubmit={handleSubmit} className='formulario' >
           <div className="campo">
-            <label htmlFor="nuevoPresupuesto">Definir Presupuesto</label>
+            <label htmlFor="nuevoPresupuesto">Define your Budget</label>
             <input 
                 id='nuevoPresupuesto' 
                 type="number" 
@@ -35,7 +35,7 @@ function NuevoPresupuesto({setPresupuesto,presupuesto,setIsValid}) {
           <input id='añadirPresupuesto' type="submit" value="Añadir" />
           {
             error && 
-            <div className='alerta error'>El presupuesto no es valido</div>
+            <div className='alerta error'>The budget is not valid</div>
           }
         </form>
     </div>

@@ -4,7 +4,7 @@ import ControlGastos from './ControlGastos'
 function Header({setPresupuesto,presupuesto,setIsValid,isValid,gastos,filtro,gastosFiltrados,setGastos}) {
   return (
     <header>
-        <h1>Planificador de gastos</h1>
+        <h1>expenses planner</h1>
         {
           !isValid ?
           <NuevoPresupuesto

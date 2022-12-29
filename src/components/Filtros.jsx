@@ -2,11 +2,6 @@ import {useState,useEffect} from 'react'
 
 function Filtros({filtro,setFiltro}) {
 
-
- 
-  
-
-
   return (
     <div className='filtros sombra contenedor'>
         <form action="">
